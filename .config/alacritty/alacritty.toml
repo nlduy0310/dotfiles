@@ -1,0 +1,10 @@
+import = [
+	"~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[font]
+
+normal.family = "FiraCode Nerd Font"
+normal.style = "Bold"
+
+size = 18

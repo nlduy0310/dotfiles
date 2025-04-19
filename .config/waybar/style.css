@@ -1,0 +1,45 @@
+@define-color foreground #eeeeee;
+@define-color foreground-inactive #aaaaaa;
+@define-color background #000000;
+
+* {
+    font-family: FiraCode Nerd Font;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#waybar {
+    color: @foreground;
+    background-color: @background;
+}
+
+#workspaces button {
+    color: @foreground;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#workspaces button.focused {
+    background-color: #222222;
+}
+
+#workspaces button.empty {
+    color: @foreground-inactive;
+}
+
+#memory,
+#temperature {
+    padding-left: 1em
+}
+
+#wireplumber,
+#battery,
+#backlight,
+#language,
+#network,
+#bluetooth,
+#tray {
+    padding-right: 1em
+}
