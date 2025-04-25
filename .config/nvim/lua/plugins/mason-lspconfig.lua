@@ -1,14 +1,27 @@
 return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
-        require("mason-lspconfig").setup{
-            ensure_installed = { 
+        require("mason-lspconfig").setup({
+            ensure_installed = {
                 "lua_ls",
-                "html", "cssls",
+                "html",
+                "cssls",
                 "ts_ls",
                 "gopls",
-                "pylsp"
-            }
-        }
-    end
+                "pylsp",
+            },
+        })
+
+        -- Setup each LSP automatically
+        require("mason-lspconfig").setup_handlers({
+            -- Specific configurations
+            -- ["gopls"] = function()
+            --     require("lspconfig").gopls.setup({})
+            -- end,
+            -- Default for other servers
+            function(server_name)
+                require("lspconfig")[server_name].setup({})
+            end,
+        })
+    end,
 }
