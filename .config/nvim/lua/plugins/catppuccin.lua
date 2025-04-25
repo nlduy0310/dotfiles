@@ -6,9 +6,9 @@ return {
     lazy = false,  -- Load immediately
     config = function()
       require("catppuccin").setup({
-        flavour = "mocha",               
+        flavour = "mocha",
         styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
-          comments = { "italic" }, -- Change the style of comments
+          comments = {}, -- Change the style of comments
           conditionals = {},
           loops = {},
           functions = {},
