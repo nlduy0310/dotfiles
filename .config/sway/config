@@ -7,8 +7,8 @@
 default_border pixel 2
 
 # Set border colors
-client.focused              #ffffff #ffffff #ffffff #99cfe0
-client.unfocused            #333333 #333333 #333333 
+client.focused              #ffffff #ffffff #000000 #99cfe0
+client.unfocused            #333333 #333333 #aaaaaa 
 client.focused_inactive     #444444 #444444 #444444
 client.urgent               #ff0000 #ff0000 #ff0000
 
