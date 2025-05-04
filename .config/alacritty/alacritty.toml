@@ -8,3 +8,8 @@ normal.family = "FiraCode Nerd Font"
 normal.style = "Bold"
 
 size = 18
+
+[window]
+
+padding.x = 10
+padding.y = 10
