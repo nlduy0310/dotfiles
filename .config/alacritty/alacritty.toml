@@ -11,5 +11,9 @@ size = 18
 
 [window]
 
-padding.x = 10
-padding.y = 10
+decorations = "None"
+
+[[keyboard.bindings]]
+key = "Slash"
+mods = "Control"
+chars = "\u001f"  # Sends ASCII 0x1F, which is <C-_>

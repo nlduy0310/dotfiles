@@ -104,6 +104,8 @@ source $ZSH/oh-my-zsh.sh
 
 # ----------------------- CUSTOM ----------------------- 
 
+alias lv="NVIM_APPNAME=lazyvim nvim"
+
 # greeting text
 figlet -f smslant -c "duysterm" | lolcat
 
