@@ -7,7 +7,7 @@ import = [
 normal.family = "FiraCode Nerd Font"
 normal.style = "Bold"
 
-size = 18
+size = 16
 
 [window]
 
