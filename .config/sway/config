@@ -6,6 +6,9 @@
 
 default_border pixel 2
 
+gaps inner 4
+gaps outer 6
+
 # Set border colors
 client.focused              #ffffff #ffffff #000000 #99cfe0
 client.unfocused            #333333 #333333 #aaaaaa 

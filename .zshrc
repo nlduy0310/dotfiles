@@ -112,9 +112,5 @@ figlet -f smslant -c "duysterm" | lolcat
 # linuxbrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # starship
 eval "$(starship init zsh)"
